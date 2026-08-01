@@ -1,8 +1,27 @@
 aid: ouromedicines
-name: Ouromedicines
-description: 'Ouromedicines is a company surfaced as a portfolio company of norwest-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead
-  awaiting the enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ouromedicines.png
+name: Ouro Medicines
+description: 'Ouro Medicines is a clinical-stage biotechnology company based in South
+  San Francisco, California, defining the future of treatment for people with immune-mediated
+  diseases. Its pipeline centers on T cell engager programs for autoimmune conditions,
+  including the lead candidate OM336 (evaluated in the AIC-1001 clinical trial), alongside
+  an expanded access policy. The company was surfaced as a portfolio company of Norwest
+  Venture Partners and added to the API Evangelist network as a lead. As a therapeutics
+  developer, Ouro Medicines publishes a corporate and scientific website but no public
+  developer program, API, or technical documentation surface. Recent company news
+  includes a definitive agreement for Gilead Sciences to acquire Ouro Medicines to
+  advance its first-in-class T cell engager program for autoimmune diseases.'
 url: https://raw.githubusercontent.com/api-evangelist/ouromedicines/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Unknown
+- Biotechnology
+- Pharmaceuticals
+- Immunology
+- Immune-Mediated Diseases
+- Autoimmune Diseases
+- Clinical Trials
+- Life Sciences
+- Therapeutics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +49,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/ouromedicines-domain-security.yml
 - type: Website
   url: https://ouromedicines.com
+- type: Blog
+  url: https://ouromedicines.com/news/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
